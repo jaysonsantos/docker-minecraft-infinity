@@ -3,7 +3,7 @@ docker-minecraft-infinity
 
 Dockerfile for Minecraft Infinity Server
 
-This docker image provides a Minecraft Server, based on Feed The Beast Lite 2, that will automatically download the latest stable or any specific version.
+This docker image provides a Minecraft Server, based on Feed The Beast Infinity.
 
 To simply use the latest stable version, run:
 
