@@ -9,7 +9,7 @@ RUN addgroup --gid 1234 minecraft
 RUN adduser --disabled-password --home=/data --uid 1234 --gid 1234 --gecos "minecraft user" minecraft
 
 RUN mkdir /tmp/feed-the-beast && cd /tmp/feed-the-beast && \
-	wget -c http://addons-origin.cursecdn.com/files/2264/805/FTBInfinityServer.zip && \
+	wget -c http://ftb.cursecdn.com/FTB2/modpacks/FTBInfinity/2_1_2/FTBInfinityServer.zip && \
 	unzip FTBInfinityServer.zip && \
 	rm FTBInfinityServer.zip && \
 	bash -x FTBInstall.sh && \
