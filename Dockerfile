@@ -28,6 +28,6 @@ WORKDIR /data
 
 CMD /start
 
-ENV MOTD A Minecraft (FTB Infinity 1.7) Server Powered by Docker
+ENV MOTD A Minecraft (FTB Infinity 2.1.2) Server Powered by Docker
 ENV LEVEL world
 ENV JVM_OPTS -Xms2048m -Xmx2048m
