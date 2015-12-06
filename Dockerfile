@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y wget unzip
 RUN addgroup --gid 1234 minecraft
 RUN adduser --disabled-password --home=/data --uid 1234 --gid 1234 --gecos "minecraft user" minecraft
 
-RUN mkdir /tmp/feed-the-beast && cd /tmp/feed-the-beast && \
+RUN mkdir -p /tmp/feed-the-beast/libraries/net/minecraft/launchwrapper/1.11 && cd /tmp/feed-the-beast && \
 	wget -c http://ftb.cursecdn.com/FTB2/modpacks/FTBInfinity/2_2_2/FTBInfinityServer.zip && \
 	unzip FTBInfinityServer.zip && \
 	rm FTBInfinityServer.zip && \
