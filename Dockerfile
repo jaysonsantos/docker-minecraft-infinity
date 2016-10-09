@@ -9,9 +9,9 @@ RUN addgroup --gid 1234 minecraft
 RUN adduser --disabled-password --home=/data --uid 1234 --gid 1234 --gecos "minecraft user" minecraft
 
 RUN mkdir /tmp/feed-the-beast && cd /tmp/feed-the-beast && \
-	wget -c http://addons-origin.cursecdn.com/files/2293/83/FTBInfinityEvlovedSkyblockServer_1.2.0.zip && \
-	unzip FTBInfinityEvlovedSkyblockServer_1.2.0.zip && \
-	rm FTBInfinityEvlovedSkyblockServer_1.2.0.zip && \
+	wget -c https://addons-origin.cursecdn.com/files/2320/894/FTBInfinityEvolvedSkyblock-1.2.0-1.7.10.zip && \
+	unzip FTBInfinityEvolvedSkyblock-1.2.0-1.7.10.zip && \
+	rm FTBInfinityEvolvedSkyblock-1.2.0-1.7.10.zip && \
 	bash -x FTBInstall.sh && \
 	chown -R minecraft /tmp/feed-the-beast
 
