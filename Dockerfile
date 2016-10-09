@@ -27,6 +27,6 @@ WORKDIR /data
 
 CMD /start
 
-ENV MOTD A Minecraft (FTB Infinity Evolved Skyblock 1.1.0) Server Powered by Docker
+ENV MOTD A Minecraft (FTB Infinity Evolved Skyblock 1.2.0) Server Powered by Docker
 ENV LEVEL world
 ENV JVM_OPTS -Xms2048m -Xmx2048m
